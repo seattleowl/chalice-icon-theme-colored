@@ -1,72 +1,74 @@
 {
-  "name": "chalice-icon-theme",
-  "version": "1.2.14",
-  "displayName": "Chalice Icon Theme",
-  "description": "A minimalistic icon theme",
-  "publisher": "artlaman",
-  "maintainers": [
-    "Artem Laman <artlaman@yandex.by>"
-  ],
-  "icon": "assets/icon.png",
-  "galleryBanner": {
-    "color": "#DDDDDD",
-    "theme": "light"
-  },
-  "engines": {
-    "vscode": "^1.18.0"
-  },
-  "categories": [
-    "Themes",
-    "Other"
-  ],
-  "keywords": [
-    "icons",
-    "theme",
-    "icon-theme",
-    "minimal",
-    "sublime"
-  ],
-  "extensionKind": [
-    "ui"
-  ],
-  "activationEvents": [
-    "*"
-  ],
-  "main": "/dist/extension.js",
-  "contributes": {
-    "iconThemes": [
-      {
-        "id": "chalice-icon-theme",
-        "label": "Chalice",
-        "path": "./chalice-icon-theme.json",
-        "_watch": true
-      }
-    ],
-    "configuration": {
-      "title": "Chalice Icons",
-      "properties": {
-        "chaliceIcons.showArrows": {
-          "type": "boolean",
-          "default": false,
-          "description": "Show File Explorer rotating triangles (twisties)",
-          "scope": "application"
-        }
-      }
-    }
-  },
-  "scripts": {
-    "vscode:prepublish": "shadow-cljs release extension"
-  },
-  "devDependencies": {
-    "shadow-cljs": "2.8.93"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/artlaman/chalice-icon-theme.git"
-  },
-  "bugs": {
-    "url": "https://github.com/artlaman/chalice-icon-theme/issues"
-  },
-  "homepage": "https://github.com/artlaman/chalice-icon-theme/blob/master/README.md",
-  "license": "MIT"
+	"name": "chalice-icon-theme-colored",
+	"version": "1.0.1",
+	"displayName": "Chalice Icon Theme (Colored)",
+	"description": "A minimalistic icon theme",
+	"publisher": "seattleowl",
+	"maintainers": [
+		"Artem Laman <artlaman@yandex.by>",
+		"Owen L."
+	],
+	"icon": "assets/icon.png",
+	"galleryBanner": {
+		"color": "#DDDDDD",
+		"theme": "light"
+	},
+	"engines": {
+		"vscode": "^1.18.0"
+	},
+	"categories": [
+		"Themes",
+		"Other"
+	],
+	"keywords": [
+		"icons",
+		"theme",
+		"icon-theme",
+		"minimal",
+		"sublime",
+		"chalice"
+	],
+	"extensionKind": [
+		"ui"
+	],
+	"activationEvents": [
+		"*"
+	],
+	"main": "/dist/extension.js",
+	"contributes": {
+		"iconThemes": [
+			{
+				"id": "chalice-icon-theme-colored",
+				"label": "Chalice (Colored)",
+				"path": "./chalice-icon-theme.json",
+				"_watch": true
+			}
+		],
+		"configuration": {
+			"title": "Chalice Icons (Colored)",
+			"properties": {
+				"chaliceIcons.showArrows": {
+					"type": "boolean",
+					"default": false,
+					"description": "Show File Explorer rotating triangles (twisties)",
+					"scope": "application"
+				}
+			}
+		}
+	},
+	"scripts": {
+		"vscode:prepublish": "shadow-cljs release extension"
+	},
+	"devDependencies": {
+		"shadow-cljs": "2.8.93"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/seattleowl/chalice-icon-theme-colored.git"
+	},
+	"bugs": {
+		"url": "https://github.com/seattleowl/chalice-icon-theme-colored/issues"
+	},
+	"homepage": "https://github.com/seattleowl/chalice-icon-theme-colored/blob/master/README.md",
+	"license": "MIT"
 }
