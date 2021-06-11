@@ -58,6 +58,10 @@
 			"fontCharacter": "\\E008",
 			"fontColor": "#e6e637"
 		},
+		"code.typescript": {
+			"fontCharacter": "\\E008",
+			"fontColor": "#40b2b8"
+		},
 		"curly.normal": {
 			"fontCharacter": "\\E004",
 			"fontColor": "#424242"
@@ -79,8 +83,16 @@
 			"fontColor": "#c5c5c5"
 		},
 		"bracket.html": {
-			"fontCharecter": "\\E005",
+			"fontCharacter": "\\E005",
 			"fontColor": "#eb5a2a"
+		},
+		"bracket.jsx": {
+			"fontCharacter": "\\E005",
+			"fontColor": "#e6e637"
+		},
+		"bracket.tsx": {
+			"fontCharacter": "\\E005",
+			"fontColor": "#40b2b8"
 		},
 		"lisp.normal": {
 			"fontCharacter": "\\E011",
@@ -107,7 +119,7 @@
 			"fontColor": "#c5c5c5"
 		},
 		"style.css": {
-			"fontCharecter": "\\E006",
+			"fontCharacter": "\\E006",
 			"fontColor": "#40b2b8"
 		},
 		"style.sass": {
@@ -151,7 +163,7 @@
 		"cxx": "code.inverse",
 		"dart": "code.inverse",
 		"js": "code.javascript",
-		"jsx": "bracket.inverse",
+		"jsx": "bracket.jsx",
 		"mjs": "code.javascript",
 		"svg": "bracket.inverse",
 		"html": "bracket.html",
@@ -174,7 +186,7 @@
 		"haxe": "code.inverse",
 		"hxml": "code.inverse",
 		"java": "code.inverse",
-		"ts": "code.inverse",
+		"ts": "code.typescript",
 		"vue": "code.inverse",
 		"xml": "bracket.inverse",
 		"csproj": "bracket.inverse",
@@ -186,7 +198,7 @@
 		"exs": "code.inverse",
 		"clj": "lisp.inverse",
 		"cljs": "lisp.inverse",
-		"tsx": "bracket.inverse",
+		"tsx": "bracket.tsx",
 		"ss": "code.inverse",
 		"scm": "code.inverse",
 		"lisp": "lisp.inverse",
@@ -254,7 +266,7 @@
 			"dockerfile": "script.normal"
 		},
 		"fileExtensions": {
-			"json": "curly.normal",
+			"json": "curly.json",
 			"map": "curly.normal",
 			"c": "code.normal",
 			"h": "code.normal",
@@ -265,18 +277,18 @@
 			"cc": "code.normal",
 			"cxx": "code.normal",
 			"dart": "code.normal",
-			"js": "code.normal",
-			"jsx": "bracket.normal",
-			"mjs": "code.normal",
+			"js": "code.javascript",
+			"jsx": "bracket.jsx",
+			"mjs": "code.javascript",
 			"svg": "bracket.normal",
-			"html": "bracket.normal",
+			"html": "bracket.html",
 			"htm": "bracket.normal",
 			"phtml": "bracket.normal",
-			"css": "style.normal",
-			"sass": "style.normal",
-			"scss": "style.normal",
+			"css": "style.css",
+			"sass": "style.sass",
+			"scss": "style.sass",
 			"styl": "style.normal",
-			"less": "style.normal",
+			"less": "style.css",
 			"cs": "code.normal",
 			"fs": "code.normal",
 			"go": "code.normal",
@@ -289,7 +301,7 @@
 			"haxe": "code.normal",
 			"hxml": "code.normal",
 			"java": "code.normal",
-			"ts": "code.normal",
+			"ts": "code.typescript",
 			"vue": "code.normal",
 			"xml": "bracket.normal",
 			"csproj": "bracket.normal",
@@ -301,7 +313,7 @@
 			"exs": "code.normal",
 			"clj": "lisp.normal",
 			"cljs": "lisp.normal",
-			"tsx": "bracket.normal",
+			"tsx": "bracket.tsx",
 			"ss": "code.normal",
 			"scm": "code.normal",
 			"lisp": "lisp.normal",
