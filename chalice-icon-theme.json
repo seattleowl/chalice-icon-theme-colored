@@ -8,8 +8,8 @@
 					"format": "woff"
 				}
 			],
-			"weight": "regular",
-			"style": "regular",
+			"weight": "normal",
+			"style": "normal",
 			"size": "1.3em"
 		}
 	],
@@ -65,6 +65,10 @@
 		"curly.inverse": {
 			"fontCharacter": "\\E004",
 			"fontColor": "#c5c5c5"
+		},
+		"curly.json": {
+			"fontCharacter": "\\E004",
+			"fontColor": "#e6e637"
 		},
 		"bracket.normal": {
 			"fontCharacter": "\\E005",
@@ -135,7 +139,7 @@
 		"dockerfile": "script.inverse"
 	},
 	"fileExtensions": {
-		"json": "curly.inverse",
+		"json": "curly.json",
 		"map": "curly.inverse",
 		"c": "code.inverse",
 		"h": "code.inverse",
