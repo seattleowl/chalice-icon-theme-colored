@@ -1,4 +1,8 @@
-# Chalice icon theme for [Visual Studio Code](http://code.visualstudio.com)
+# Chalice icon theme (Colored) for [Visual Studio Code](http://code.visualstudio.com)
+This is forked from [artlaman/chalice-icon-theme](https://github.com/artlaman/chalice-icon-theme).
+I did not make any of these icons, I just edited json to color them.
+
+## From [artlaman/chalice-icon-theme](https://github.com/artlaman/chalice-icon-theme)
 
 [![License: MIT](https://img.shields.io/badge/license-MIT-orange.svg)](https://github.com/artlaman/chalice-icon-theme/blob/master/LICENSE)
 [![Marketplace Version](https://vsmarketplacebadge.apphb.com/version/artlaman.chalice-icon-theme.svg)](https://marketplace.visualstudio.com/items?itemName=artlaman.chalice-icon-theme)
