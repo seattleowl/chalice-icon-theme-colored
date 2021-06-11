@@ -1,7 +1,6 @@
 .gitignore
 .shadow-cljs/
 .vscode/
-assets/
 demo/
 externs/
 instance_ufo/
@@ -10,7 +9,6 @@ package-lock.json
 scripts/
 shadow-cljs.edn
 src/
-dist/
 
 !assets/icon.png
 !dist/ChaliceIcons-Regular.woff
